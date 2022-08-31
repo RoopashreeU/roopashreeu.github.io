@@ -1,0 +1,73 @@
+[
+    {
+        "tech": "Java",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "Spring Boot",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "Hibernate",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "Kafka",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "SQL",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "RDMS",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "Restful Services",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "Microservices",
+        "color": "success",
+        "expertise": "expert"
+    },
+    {
+        "tech": "Kubernetes",
+        "color": "info",
+        "expertise": "intermediate"
+    },
+    {
+        "tech": "Docker",
+        "color": "info",
+        "expertise": "intermediate"
+    },
+    {
+        "tech": "Python",
+        "color": "info",
+        "expertise": "intermediate"
+    },
+    {
+        "tech": "React JS",
+        "color": "info",
+        "expertise": "intermediate"
+    },
+    {
+        "tech": "Azure Cloud",
+        "color": "success",
+        "expertise": "intermediate"
+    },
+    {
+        "tech": "Azure Storage",
+        "color": "success",
+        "expertise": "intermediate"
+    }
+
+]
