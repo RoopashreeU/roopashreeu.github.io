@@ -54,8 +54,11 @@ class Home extends React.Component {
         <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#fafafa" }}>
           <Company />
         </Grid>
-        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#6e5494" }}>
+        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#482880" }}>
           <AboutMe/>
+        </Grid>
+        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#482880" }}>
+          <WorkTimeline/>
         </Grid>
       </Grid>
     );
