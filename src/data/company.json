@@ -1,42 +1,52 @@
 [
     {
         "name": "Walmart",
+        "grid": 4,
         "title": "Software Engineer III",
         "logo": "/images/walmart-black.jpeg",
         "logoFull": "/images/walmart-full.png",
         "duration": "Aug 2020 - Present",
-        "desc": "Enterprise Service Bus - A system that acts as an intermediate between the upstream and downstream systems. Produces and Consumes data through various mechanisms such as Kafka, Web Service, MQ and SFTP\n        Designed and developed a component from scratch\n        Mentored and lead a team of two\n        Redesigned a component to handle the increase in incoming data volume during peak period\n        Innovated a data parser that reduced the development time greatly from months to days\n        \n        Technologies Used: Java 8, Rest API, Spring Boot, Hibernate, Kafka, Active MQ, Azure Blob Storage, Azure SQL, Azure Cloud (WCNP), Git, MySQL\n        \n        ."
+        "desc": "Enterprise Service Bus - A system that acts as an intermediate between the upstream and downstream systems. Produces and Consumes data through various mechanisms such as Kafka, Web Service, MQ and SFTP\n        Designed and developed multiple components from scratch",
+        "tech": "Java 8 & 11, Rest API, Spring Boot, Hibernate, Kafka, Active MQ, Azure Blob Storage, Azure SQL, Azure Cloud (WCNP), Git, MySQL, Python, React JS, Microservices, Design Pattern, System Design"
     },
     {
         "name": "BNY Mellon",
+        "grid": 4,
         "title": "Sr. Software Engineer",
         "logo": "/images/bny-mellon.jpeg",
         "logoFull": "/images/bny-mellon-full1.png",
         "duration": "Jan 2020 - Jul 2020",
-        "desc": "Enterprise Service Bus - A system that acts as an intermediate between the upstream and downstream systems. Produces and Consumes data through various mechanisms such as Kafka, Web Service, MQ and SFTP\n        Designed and developed a component from scratch\n        Mentored and lead a team of two\n        Redesigned a component to handle the increase in incoming data volume during peak period\n        Innovated a data parser that reduced the development time greatly from months to days\n        \n        Technologies Used: Java 8, Rest API, Spring Boot, Hibernate, Kafka, Active MQ, Azure Blob Storage, Azure SQL, Azure Cloud (WCNP), Git, MySQL\n        \n        ."
+        "desc": "A module which performs Hedge Calculations for Trading and executes the trade based on the NAV and TA files received",
+        "tech": "Java 8, Rest API, Spring Boot, Spring Batch, Hibernate, Active JS, React JS"
     },
     {
         "name": "PayPal",
+        "grid": 4,
         "title": "Software Engineer III",
         "logo": "/images/paypal.png",
         "logoFull": "/images/paypal-full.png",
         "duration": "Aug 2018 - Sep 2019",
-        "desc": "Enterprise Service Bus - A system that acts as an intermediate between the upstream and downstream systems. Produces and Consumes data through various mechanisms such as Kafka, Web Service, MQ and SFTP\n        Designed and developed a component from scratch\n        Mentored and lead a team of two\n        Redesigned a component to handle the increase in incoming data volume during peak period\n        Innovated a data parser that reduced the development time greatly from months to days\n        \n        Technologies Used: Java 8, Rest API, Spring Boot, Hibernate, Kafka, Active MQ, Azure Blob Storage, Azure SQL, Azure Cloud (WCNP), Git, MySQL\n        \n        ."
+        "desc": "Risk Limitations is a module that restricts specific access in a user's PayPal account like send/receive/withdraw money, if some fraudulent activities are identified",
+        "tech": "Java 8, Rest API, Spring Boot, Hibernate, C++"
     },
     {
         "name": "Gain Credit",
+        "grid": 6,
         "title": "Software Engineer II",
         "logo": "/images/gaincredit.png",
         "logoFull": "/images/gaincredit-full (1).png",
         "duration": "Jan 2018 - Jul 2018",
-        "desc": "Enterprise Service Bus - A system that acts as an intermediate between the upstream and downstream systems. Produces and Consumes data through various mechanisms such as Kafka, Web Service, MQ and SFTP\n        Designed and developed a component from scratch\n        Mentored and lead a team of two\n        Redesigned a component to handle the increase in incoming data volume during peak period\n        Innovated a data parser that reduced the development time greatly from months to days\n        \n        Technologies Used: Java 8, Rest API, Spring Boot, Hibernate, Kafka, Active MQ, Azure Blob Storage, Azure SQL, Azure Cloud (WCNP), Git, MySQL\n        \n        ."
+        "desc": "Application that gives a quick loan or credit to the middle level people who gets ignored by the banks",
+        "tech": "Python, DJango, MySQL"
     },
     {
         "name": "Cognizant",
+        "grid": 6,
         "title": "Programmer Analyst",
         "logo": "/images/cognizant.png",
         "logoFull": "/images/cognizant-full.png",
         "duration": "Jun 2015 - Jan 2018",
-        "desc": "Enterprise Service Bus - A system that acts as an intermediate between the upstream and downstream systems. Produces and Consumes data through various mechanisms such as Kafka, Web Service, MQ and SFTP\n        Designed and developed a component from scratch\n        Mentored and lead a team of two\n        Redesigned a component to handle the increase in incoming data volume during peak period\n        Innovated a data parser that reduced the development time greatly from months to days\n        \n        Technologies Used: Java 8, Rest API, Spring Boot, Hibernate, Kafka, Active MQ, Azure Blob Storage, Azure SQL, Azure Cloud (WCNP), Git, MySQL\n        \n        ."
+        "desc": "The project was to send a summary of leaves and claims payable information for every employee of Bank of America by the Metropolitan Life Inc.,",
+        "tech": "Java 7, Rest API, Spring Boot, Hibernate, Active MQ, RDMS"
     }
 ]

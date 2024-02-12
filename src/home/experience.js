@@ -28,7 +28,7 @@ class Experience extends React.Component {
             variant="h2"
             style={{ color: "#ffffff", marginBottom: "2px", fontSize: 100 }}
           >
-            6+
+            8+
           </Typography>
           <Typography variant="caption" style={{ color: "#ffffff" }}>
             Years of Experience

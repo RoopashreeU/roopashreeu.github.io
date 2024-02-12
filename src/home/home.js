@@ -15,6 +15,10 @@ import ToolBar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
 import AboutMe from "./aboutme";
+import MyFooter from "./footer";
+import Skills from "./skills";
+import WhyMe from "./whyme";
+import WorkHistory from "./workhistory";
 
 class Home extends React.Component {
   constructor(props) {
@@ -27,15 +31,15 @@ class Home extends React.Component {
         <Grid item md={12} lg={12} sm={12} xs={12}>
           <AppBar position='static' sx={{bgcolor: '#212121', padding: '0%'}}>
             <ToolBar sx={{padding: '2%', display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
-              <Button sx={{color: "white"}}>Home</Button>
-              <Button sx={{color: "white"}}>About me</Button>
-              <Button sx={{color: "white"}}>Experience</Button>
-              <Button sx={{color: "white"}}>Contact</Button>
+              <Button sx={{color: "white", scrollBehavior: "smooth"}} href="#home" >Home</Button>
+              <Button sx={{color: "white", scrollBehavior: "smooth"}} href="#aboutme">About me</Button>
+              <Button sx={{color: "white", scrollBehavior: "smooth"}} href="#work">Experience</Button>
+              <Button sx={{color: "white", scrollBehavior: "smooth"}} href="#skills">Skills</Button>
             </ToolBar>
           </AppBar>
         </Grid>
-        <Grid item md={7} lg={7} sm={12} xs={12} sx={{ bgcolor: "#212121" }}>
-          <Grid>
+        <Grid item id="home" md={7} lg={7} sm={12} xs={12} sx={{ bgcolor: "#212121" }}>
+          <Grid >
             <Title />
           </Grid>
           <Grid item md={8} lg={8} sm={12} xs={12} sx={{ bgcolor: "#212121" }}>
@@ -51,14 +55,20 @@ class Home extends React.Component {
         <Grid item md={5} lg={5} sm={12} xs={12} sx={{ bgcolor: "#212121" }}>
           <Experience />
         </Grid>
-        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#fafafa" }}>
-          <Company />
+        <Grid item id="aboutme" md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#489577" }}>
+          <AboutMe />
         </Grid>
-        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#482880" }}>
-          <AboutMe/>
+        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#489577" }}>
+          <Company/>
         </Grid>
-        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#482880" }}>
-          <WorkTimeline/>
+        <Grid item md={12} id="skills" lg={12} sm={12} xs={12} sx={{ bgcolor: "#212121" }}>
+          <Skills/>
+        </Grid>
+        <Grid item md={12} id="work" lg={12} sm={12} xs={12} sx={{ bgcolor: "#489577" }}>
+          <WorkHistory/>
+        </Grid>
+        <Grid item md={12} lg={12} sm={12} xs={12} sx={{ bgcolor: "#212121" }}>
+          <MyFooter/>
         </Grid>
       </Grid>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from "@mui/material";
+import Company from './companies';
 
 class AboutMe extends React.Component {
     constructor(props) {
